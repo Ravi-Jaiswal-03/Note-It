@@ -1,0 +1,63 @@
+.note {
+  background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    box-shadow: inset -6px -4px 2px rgba(255, 255, 255, 0.03);
+    border-radius: 15px;
+    border: 1.5px solid rgba(255, 255, 255, 0.326);
+    color: #484343;
+    padding: 15px;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
+
+.note_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+
+.note textarea {
+    white-space: pre-wrap;
+    background: transparent;
+    border: none;
+    color: #484343;
+    resize: none;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.note textarea:focus {
+    outline: none;
+}
+
+.note textarea::placeholder {
+    color: #484343;
+    
+}
+
+.note_save {
+    background: transparent;
+    transition: 0.1s ease-in-out;
+    border: 1.5px solid #484343;
+    border-radius: 10px;
+    color: #484343;
+    padding: 4px 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.note_save:hover {
+    background: #fff;
+    border: 1.5px solid #fff;
+    color: #4b1589;
+}
+
+.note_body{
+    color: #4b1589;
+    
+}
